@@ -15,7 +15,7 @@
     CALayer *_hourLayer;
 }
 
-//#做一些适配工作#
+//#做一些界面简单适配工作#
 
 // 每秒秒针转6度
 #define perSecendA 6
