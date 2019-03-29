@@ -106,7 +106,6 @@
     // 获取小时
     CGFloat hour = compoents.hour;
     
-    
     // 秒针旋转°
     CGFloat secondA = sec * perSecendA;
     // 分针旋转°
