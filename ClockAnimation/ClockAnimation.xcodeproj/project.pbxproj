@@ -14,6 +14,7 @@
 		183762E61D45FC3F00579F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183762E51D45FC3F00579F7C /* Assets.xcassets */; };
 		183762E91D45FC3F00579F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183762E71D45FC3F00579F7C /* LaunchScreen.storyboard */; };
 		183762F41D45FC3F00579F7C /* ClockAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183762F31D45FC3F00579F7C /* ClockAnimationUITests.m */; };
+		3205D0452306944600FF6446 /* UIView+LayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3205D0442306944600FF6446 /* UIView+LayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		183762EF1D45FC3F00579F7C /* ClockAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183762F31D45FC3F00579F7C /* ClockAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAnimationUITests.m; sourceTree = "<group>"; };
 		183762F51D45FC3F00579F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3205D0432306944600FF6446 /* UIView+LayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerView.h"; sourceTree = "<group>"; };
+		3205D0442306944600FF6446 /* UIView+LayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				183762E71D45FC3F00579F7C /* LaunchScreen.storyboard */,
 				183762EA1D45FC3F00579F7C /* Info.plist */,
 				183762D91D45FC3E00579F7C /* Supporting Files */,
+				3205D0432306944600FF6446 /* UIView+LayerView.h */,
+				3205D0442306944600FF6446 /* UIView+LayerView.m */,
 			);
 			path = ClockAnimation;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -212,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183762E11D45FC3E00579F7C /* ViewController.m in Sources */,
+				3205D0452306944600FF6446 /* UIView+LayerView.m in Sources */,
 				183762DE1D45FC3E00579F7C /* AppDelegate.m in Sources */,
 				183762DB1D45FC3E00579F7C /* main.m in Sources */,
 			);
@@ -400,6 +407,7 @@
 				183762FA1D45FC3F00579F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		183762FB1D45FC3F00579F7C /* Build configuration list for PBXNativeTarget "ClockAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +416,7 @@
 				183762FD1D45FC3F00579F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
